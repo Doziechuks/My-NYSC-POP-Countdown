@@ -2,7 +2,7 @@ const dayElement = document.getElementById("day");
 const hourElement = document.getElementById("hour");
 const minutesElement = document.getElementById("minutes");
 const secondsElement = document.getElementById("seconds");
-const popDate = new Date('Oct 30, 2022 00:00:00').getTime();
+const popDate = new Date('Oct 25, 2022 00:00:00').getTime();
 
 updateCountdown();
 
