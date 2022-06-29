@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  height: 100vh;
+  font-family: cursive;
+  
+}
+
+.title{
+  color: #fff;
+  font-size: 2.5em;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 2em;
+}
+
+.date{
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.3em;
+  font-size: 2em;
+  font-weight: 500;
+  padding: 0 2em;
+}
+
+.container{
+  width: 100%;
+  
+}
+
+.timer{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+  padding: 2em;
+}
+
+.day{
+  width: 100%;
+  max-width: 5em;
+  text-align: center;
+}
+
+.day h3{
+  font-size: 2.5rem;
+}
+
+.hour{
+  width: 100%;
+  max-width: 5em;
+  text-align: center;
+}
+
+.hour h3{
+  font-size: 2.5rem;
+}
+
+.minutes{
+  width: 100%;
+  max-width: 5em;
+  text-align: center;
+}
+
+.minutes h3{
+  font-size: 2.5rem;
+}
+
+.second{
+  width: 100%;
+  max-width: 5em;
+  text-align: center;
+}
+
+.second h3{
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width:390px){
+  .timer{
+    gap: 2em;
+    padding: 2em 1em;
+  }
+}
